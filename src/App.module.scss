@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+
+.modal {
+  min-height: 17rem !important;
+}
+
+@media only screen and (min-width: 1028px) {
+  .container {
+    flex-direction: row;
+    padding: 2rem;
+  }
+}

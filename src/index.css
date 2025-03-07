@@ -1,0 +1,30 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary: #0074d9;
+  --background-white: white;
+  --background-disabled-color: #f7f7f7;
+  --disabled-color: #d0d0d0;
+  --background-dark: #676767;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: lightgray;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}

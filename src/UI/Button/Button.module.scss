@@ -1,0 +1,22 @@
+.button {
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  font-weight: 500;
+  background-color: var(--primary);
+  color: white;
+  cursor: pointer;
+  align-self: center;
+
+  padding: 0.6rem 0.5rem;
+}
+
+.button:disabled {
+  border-color: var(--disabled-color);
+  background-color: var(--background-disabled-color);
+  color: var(--disabled-color);
+  cursor: not-allowed;
+}
+
+.button:hover {
+  opacity: 0.9;
+}

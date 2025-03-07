@@ -1,0 +1,21 @@
+.container {
+  max-height: 40rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  margin: 0;
+}
+
+.metadata {
+  margin-top: 1.5rem;
+
+  & > h5 {
+    margin: 0;
+    text-align: center;
+  }
+}
